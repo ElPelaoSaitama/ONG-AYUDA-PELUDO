@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONG | AYUDA A UN PELUDO</title>
+    <link rel="icon" type="image/jpg" href="img/logo-pestana.png">
+    <script src="https://kit.fontawesome.com/a60d48617b.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+  <div id="arriba"></div>
+  <section class="page">
+
+    <!-- Boton hacia arriba -->
+    <a class="ir-arriba"  javascript:void(0) title="Volver arriba" href="#arriba" id="botonArriba">
+            <span class="fa-stack">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
+            </span>
+    </a>
+    <!-- NavBar -->
+    <nav class="navbar navbar-light sticky-top">
+      <div class="container-fluid justify-content-center">
+        <a class="navbar-brand " href="#">
+          <img src="img/icon-barr.png" alt="" width="65" height="52" class="d-inline-block align-text-center"/>
+          ONG | AYUDA A UN PELUDO
+        </a>
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light  sticky-top-2">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#flag">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="sub-pages/contactanos.html">Contactanos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Adopta
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" class="link" href="#">Perros</a></li>
+                <li><a class="dropdown-item" class="link" href="#">Gatos</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="navbar-nav flex-row">
+            <!-- Icons -->
+            <li class="nav-item">
+              <a
+                class="nav-link pe-2"
+                href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA"
+                rel="nofollow"
+                target="_blank">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link px-2"
+                href="https://www.facebook.com/mdbootstrap"
+                rel="nofollow"
+                target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link px-2"
+                href="https://twitter.com/MDBootstrap"
+                rel="nofollow"
+                target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link ps-2"
+                href="https://github.com/mdbootstrap/mdb-ui-kit"
+                rel="nofollow"
+                target="_blank"
+                >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Carrusel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" center="auto">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="#flag">
+            <img src="img/banner-quienes.gif" class="d-block w-100" alt="BANNER_1">
+          </a>
+          </div>
+          <div class="carousel-item">
+            <a href="sub-pages/perros.html">
+            <img src="img/banner-perros.gif" class="d-block w-100" alt="BANNER_2">
+          </a>
+          </div>
+          <div class="carousel-item">
+            <a href="sub-pages/gatos.html">
+            <img src="img/banner-gatos.gif" class="d-block w-100" alt="BANNER_3">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="sub-pages/colabora.html">
+            <img src="img/banner-colabora.gif" class="d-block w-100" alt="BANNER_4">
+            </a>
+          </div>
+          
+          <div class="carousel-item">
+            <a href="sub-pages/contactanos.html">
+            <img src="img/banner-contacto.gif" class="d-block w-100" alt="BANNER_5">
+            </a>
+          </div>
+        </div>
+        <div id="flag"></div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        
+    </div>
+    <hr id="separador">
+    <div id="nosotros">
+      <h2>¿Quienes Somos?</h2>
+    </div>
+    <div class="cont" id="historia">
+      <h2>Nuestras Historia</h2>
+
+      <p>Nuestras organizacion es una corporacion encargada del rescate de animales que se encuentran en condicion de abandono y con condiciones sanitarias deficientes. 
+        La organizacion nace como la consolidacion de un equipo formado por personas que venian trabajando desde hace tiempo en el rescate, principalmente de perros. 
+        Y en la generacion de politicas educativas de tenecia responsable. En el año 2014, a causa del deterioro y abandono progresivo del refugio, 
+        este grupo de personas ocurrio al llamado para salvar el refugio. La necesidad de consolidad la ayuda, asegurar los recursos y ampliar los objetivos a la adopcion, 
+        la mejora de calidad de vida y la promocion de la educacion en tenencia responsable, llevo a los integrantes a embarcarse en la mision de obtener la personalidad 
+        juridica, generar una estructura, elegir a los representantes y funcionar, finalmente, como una corporacion. Hoy la corporacion se posiciona en una institucion que 
+        busca instalar el debate nacional en el tema de protecion animal y tenencia responsable.</p>
+
+        <h2>Nuestra misión</h2>
+
+        <p>Somos una corporación destinada a trabajar por el bienestar animal y promover el respeto y la tenencia responsable de animales de compañía, 
+          especialmente en condición de abandono, rescatando y mejorando las condiciones sanitarias, educando y generando conciencia en la población. 
+          Esto lo hacemos para mejorar la calidad de vida, las condiciones de salud pública y contribuir a una sociedad más empática, 
+          solidaria y consciente de la interacción de los animales con el ser humano.</p>
+
+          <h2>¿Quienes somos?</h2>
+          <p>El equipo de esta ONG esta conformada por un equipo de directivo y lideres en distintas areas rerlacionadas con el quehacer de la corporacion. 
+            Asimismo, hay detras de este equipo, un valioso y fundamental grupo de voluntarios y voluntarias.</p>
+    </div>
+    <h2 id="sub-tittle">DIRECTORIO Y COLABORADORES</h2>
+    <!-- Cards -->
+    <div class="container">
+      <div class="card">
+          <img src="img/img1.jpg">
+          <h4>Ernesto Belloni</h4>
+          <p>Mas conocido como Che Copete, es el principal director de esta organicacion.</p>
+      </div>
+      
+      <div class="card">
+          <img src="img/img2.jpg">
+          <h4>Comida</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+      </div>
+      
+      <div class="card">
+          <img src="img/img3.jpg">
+          <h4>Tecnología</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+      </div>
+
+      <div class="card">
+        <img src="img/img1.jpg">
+        <h4>Ernesto Belloni</h4>
+        <p>Mas conocido como Che Copete, es el principal director de esta organicacion.</p>
+    </div>
+    
+    <div class="card">
+        <img src="img/img2.jpg">
+        <h4>Comida</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+    </div>
+    
+    <div class="card">
+        <img src="img/img3.jpg">
+        <h4>Tecnología</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+    </div> 
+    </div>
+
+      
+
+
+        
+
+
+  
+  <div class="scrol"></div>      
+  </div>
+</section>
+    <script src="https://kit.fontawesome.com/a60d48617b.js" crossorigin="anonymous"></script>
+    <script src="js/js.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

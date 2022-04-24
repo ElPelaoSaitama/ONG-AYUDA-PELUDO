@@ -1,0 +1,265 @@
+/*Flecha para hacer la pagina hacia arriba*/
+.ir-arriba{
+    font-size:20px;
+    color:black;
+    cursor:pointer;
+    position:fixed;
+    bottom:10px;
+    right:-100px;
+    z-index:2;
+    transition: all 1s;
+  }
+
+body {
+background-color:#112D4E;
+  
+}
+.navbar ul{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+}
+.navbar .collapse a{
+  display: inline-block;
+  padding: 20px;
+  line-height: normal;
+  text-decoration: none;
+  color:black;
+  transition: all 0.3s ease;
+  border-bottom: 2px solid transparent;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.navbar .collapse a:hover{
+  border-bottom: 2px solid #112D4E;
+  padding-bottom: 5px;
+}
+.page{
+  margin-left: 10%;
+  margin-right: 10%;
+  position: relative;
+  background-color: #F9F7F7;
+  box-shadow:0px 0px 28px #F9F7F7;
+}
+.sticky-top{
+  background-color: #3F72AF;
+  box-shadow:0px 0px 28px black;
+}
+.sticky-top-2{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 70px;
+  z-index: 1030;
+  background-color:#DBE2EF;
+  box-shadow:0px 0px 28px black;
+}
+.carousel{
+  width: 89%;
+  margin-left: 5.3%;
+  /* margin-right: 8%; */
+  margin-top: 2%;
+  margin-bottom: 5%;
+  background-color:aliceblue;
+}
+.page .linea {
+  margin:0px 20px;
+  width:90px;    
+  border-top:1px solid #999;
+  position: relative;
+  top:10px;
+  float:left;
+  }
+.page #separador{
+  margin-left: 10%;
+  margin-right:10%;
+  height: 5px;
+  color:#112D4E;
+}
+.page #nosotros{
+  margin-top: 3%;
+  text-align: center;
+}
+.page #historia{
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  background-color: #DBE2EF;
+}
+.page #historia h2{
+  margin-bottom: 3%;
+}
+.page #sub-tittle{
+  margin-left: 6%;
+  margin-right: 6%;
+  background-color: #DBE2EF;
+  text-align: center;
+}
+
+/* cards */
+.container{
+  width: 100%;
+  max-width: 1200px;
+  height: 430px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+.page .container .card{
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+}
+
+.page .container .card:hover{
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.page .container .card img{
+  width: 330px;
+  height: 220px;
+}
+
+
+.page .container .card h4{
+  font-weight: 600;
+}
+
+.page .container .card p{
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.page .container .card a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #3498db;
+}
+/* CONTACTO */
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.logo {
+  text-align: center;
+  font-size: 3em;
+}
+
+.logo span {
+  color: #B70E21;
+}
+
+.contact-wrapper {
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.contact-wrapper > * {
+  padding: 1em;
+}
+
+.contact-form {
+  background: #3498db;
+}
+
+.contact-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form label {
+  display: block;
+}
+
+.contact-form form p {
+  margin: 0;
+  padding: 1em;
+}
+
+.contact-form form .block {
+  grid-column: 1 / 3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: .7em;
+  border: none;
+  background: none;
+  outline: 0;
+  color: #fff;
+  border-bottom: 1px solid #d63031;
+}
+
+.contact-form form button {
+  background: #B70E21;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+  background: #d63031;
+  color: #fff;
+  transition: background-color 1s ease-out;
+  outline: 0;
+}
+
+/* CONTACT INFO */
+.contact-info {
+  background: #DBE2EF;
+}
+
+.contact-info h4, .contact-info ul, .contact-info p {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+/* LARGE SIZE */
+@media(min-width: 700px) {
+  body {
+      padding: 0 4em;
+  }
+  .contact-wrapper {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+  }
+  .contact-wrapper > * {
+      padding: 2em;
+  }
+  .contact-info h4,
+  .contact-info ul,
+  .contact-info p {
+      text-align: left;
+  }
+}
+
+
+
+
+
+
+.scrol{
+  height: 10000px;
+}
+
+
