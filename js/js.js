@@ -54,6 +54,11 @@ function captura(){
             }
         }
     }
+    document.getElementById("nom").innerHTML = nombre;
+    document.getElementById("mail").innerHTML = email;
+    document.getElementById("celu").innerHTML = telefone;
+    document.getElementById("asu").innerHTML = asunt;
+    document.getElementById("msje").innerHTML = mensaje;
     
 }
 
